@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.3">
+<eagle version="6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -150,119 +150,66 @@ Id: fc226714e36e4508b1fc21a819f1be55
 </packages>
 <symbols>
 <symbol name="CARAMBOLA2">
-<wire x1="-25.4" y1="33.02" x2="27.94" y2="33.02" width="0.254" layer="94"/>
-<wire x1="-25.4" y1="33.02" x2="-25.4" y2="-40.64" width="0.254" layer="94"/>
-<pin name="49" x="-20.32" y="-45.72" visible="pad" length="middle" direction="pwr" rot="R90"/>
-<pin name="48" x="-17.78" y="-45.72" visible="pad" length="middle" direction="pwr" rot="R90"/>
-<pin name="47" x="-15.24" y="-45.72" visible="pad" length="middle" direction="pwr" rot="R90"/>
-<pin name="46" x="-12.7" y="-45.72" visible="pad" length="middle" direction="pwr" rot="R90"/>
-<pin name="45" x="-10.16" y="-45.72" visible="pad" length="middle" direction="pwr" rot="R90"/>
-<pin name="42" x="-7.62" y="-45.72" visible="pad" length="middle" direction="pwr" rot="R90"/>
-<pin name="34" x="-5.08" y="-45.72" visible="pad" length="middle" direction="pwr" rot="R90"/>
-<pin name="32" x="-2.54" y="-45.72" visible="pad" length="middle" direction="pwr" rot="R90"/>
-<pin name="31" x="0" y="-45.72" visible="pad" length="middle" direction="pwr" rot="R90"/>
-<pin name="30" x="2.54" y="-45.72" visible="pad" length="middle" direction="pwr" rot="R90"/>
-<pin name="29" x="5.08" y="-45.72" visible="pad" length="middle" direction="pwr" rot="R90"/>
-<pin name="28" x="7.62" y="-45.72" visible="pad" length="middle" direction="pwr" rot="R90"/>
-<pin name="27" x="10.16" y="-45.72" visible="pad" length="middle" direction="pwr" rot="R90"/>
-<pin name="25" x="12.7" y="-45.72" visible="pad" length="middle" direction="pwr" rot="R90"/>
-<pin name="22" x="15.24" y="-45.72" visible="pad" length="middle" direction="pwr" rot="R90"/>
-<pin name="7" x="17.78" y="-45.72" visible="pad" length="middle" direction="pwr" rot="R90"/>
-<wire x1="-25.4" y1="-40.64" x2="27.94" y2="-40.64" width="0.254" layer="94"/>
-<text x="-20.32" y="-38.1" size="1.016" layer="94" rot="R90" align="center-left">GND</text>
-<text x="-17.78" y="-38.1" size="1.016" layer="94" rot="R90" align="center-left">GND</text>
-<text x="-15.24" y="-38.1" size="1.016" layer="94" rot="R90" align="center-left">GND</text>
-<text x="-12.7" y="-38.1" size="1.016" layer="94" rot="R90" align="center-left">GND</text>
-<text x="-10.16" y="-38.1" size="1.016" layer="94" rot="R90" align="center-left">GND</text>
-<text x="-7.62" y="-38.1" size="1.016" layer="94" rot="R90" align="center-left">GND</text>
-<text x="-5.08" y="-38.1" size="1.016" layer="94" rot="R90" align="center-left">GND</text>
-<text x="-2.54" y="-38.1" size="1.016" layer="94" rot="R90" align="center-left">GND</text>
-<text x="0" y="-38.1" size="1.016" layer="94" rot="R90" align="center-left">GND</text>
-<text x="2.54" y="-38.1" size="1.016" layer="94" rot="R90" align="center-left">GND</text>
-<text x="5.08" y="-38.1" size="1.016" layer="94" rot="R90" align="center-left">GND</text>
-<text x="7.62" y="-38.1" size="1.016" layer="94" rot="R90" align="center-left">GND</text>
-<text x="10.16" y="-38.1" size="1.016" layer="94" rot="R90" align="center-left">GND</text>
-<text x="12.7" y="-38.1" size="1.016" layer="94" rot="R90" align="center-left">GND</text>
-<text x="15.24" y="-38.1" size="1.016" layer="94" rot="R90" align="center-left">GND</text>
-<text x="17.78" y="-38.1" size="1.016" layer="94" rot="R90" align="center-left">GND</text>
-<pin name="51" x="10.16" y="38.1" visible="pad" length="middle" direction="pwr" rot="R270"/>
-<pin name="50" x="7.62" y="38.1" visible="pad" length="middle" direction="pwr" rot="R270"/>
-<text x="10.16" y="30.48" size="1.016" layer="94" rot="R270" align="center-left">3V3</text>
-<text x="7.62" y="30.48" size="1.016" layer="94" rot="R270" align="center-left">3V3</text>
-<pin name="P$1" x="2.54" y="38.1" visible="pad" length="middle" direction="pwr" rot="R270"/>
-<text x="2.54" y="30.48" size="1.016" layer="94" rot="R270" align="center-left">2V OUT</text>
-<pin name="15" x="-30.48" y="-25.4" visible="pad" length="middle" direction="out"/>
-<pin name="14" x="-30.48" y="-22.86" visible="pad" length="middle" direction="out"/>
-<pin name="13" x="-30.48" y="-20.32" visible="pad" length="middle" direction="in"/>
-<pin name="12" x="-30.48" y="-17.78" visible="pad" length="middle" direction="in"/>
-<pin name="11" x="-30.48" y="-10.16" visible="pad" length="middle" direction="out"/>
-<pin name="10" x="-30.48" y="-7.62" visible="pad" length="middle" direction="out"/>
-<pin name="9" x="-30.48" y="-5.08" visible="pad" length="middle" direction="in"/>
-<pin name="8" x="-30.48" y="-2.54" visible="pad" length="middle" direction="in"/>
-<text x="-22.86" y="-17.78" size="1.016" layer="94" align="center-left">ETH0_RX_P</text>
-<text x="-22.86" y="-20.32" size="1.016" layer="94" align="center-left">ETH0_RX_N</text>
-<text x="-22.86" y="-22.86" size="1.016" layer="94" align="center-left">ETH0_TX_P</text>
-<text x="-22.86" y="-25.4" size="1.016" layer="94" align="center-left">ETH0_TX_N</text>
-<text x="-22.86" y="-2.54" size="1.016" layer="94" align="center-left">ETH1_RX_P</text>
-<text x="-22.86" y="-5.08" size="1.016" layer="94" align="center-left">ETH1_RX_N</text>
-<text x="-22.86" y="-7.62" size="1.016" layer="94" align="center-left">ETH1_TX_P</text>
-<text x="-22.86" y="-10.16" size="1.016" layer="94" align="center-left">ETH1_TX_N</text>
-<pin name="26" x="-30.48" y="2.54" visible="pad" length="middle" direction="out"/>
-<text x="-22.86" y="2.54" size="1.016" layer="94" align="center-left">ANTENNA</text>
-<pin name="21" x="-30.48" y="10.16" visible="pad" length="middle"/>
-<pin name="20" x="-30.48" y="12.7" visible="pad" length="middle"/>
-<text x="-22.86" y="12.7" size="1.016" layer="94" align="center-left">USB+</text>
-<text x="-22.86" y="10.16" size="1.016" layer="94" align="center-left">USB-</text>
-<pin name="44" x="-30.48" y="20.32" visible="pad" length="middle" direction="out"/>
-<pin name="43" x="-30.48" y="22.86" visible="pad" length="middle" direction="in"/>
-<text x="-22.86" y="22.86" size="1.016" layer="94" align="center-left">UART RX (SPI CS1, GPIO9)</text>
-<text x="-22.86" y="20.32" size="1.016" layer="94" align="center-left">UART TX (SPI CS2, GPIO 10)</text>
-<wire x1="27.94" y1="33.02" x2="27.94" y2="-40.64" width="0.254" layer="94"/>
-<pin name="41" x="33.02" y="20.32" visible="pad" length="middle" rot="R180"/>
-<pin name="40" x="33.02" y="17.78" visible="pad" length="middle" rot="R180"/>
-<pin name="39" x="33.02" y="15.24" visible="pad" length="middle" rot="R180"/>
-<pin name="38" x="33.02" y="12.7" visible="pad" length="middle" rot="R180"/>
-<pin name="37" x="33.02" y="10.16" visible="pad" length="middle" rot="R180"/>
-<pin name="35" x="33.02" y="5.08" visible="pad" length="middle" rot="R180"/>
-<pin name="36" x="33.02" y="7.62" visible="pad" length="middle" rot="R180"/>
-<pin name="19" x="33.02" y="-10.16" visible="pad" length="middle" rot="R180"/>
-<pin name="16" x="33.02" y="-2.54" visible="pad" length="middle" rot="R180"/>
-<pin name="17" x="33.02" y="-5.08" visible="pad" length="middle" rot="R180"/>
-<pin name="18" x="33.02" y="-7.62" visible="pad" length="middle" rot="R180"/>
-<text x="25.4" y="20.32" size="1.016" layer="94" rot="MR0" align="center-left">LED0 (WLAN LED, GPIO 0)</text>
-<text x="25.4" y="17.78" size="1.016" layer="94" rot="MR0" align="center-left">LED1 (GPIO 1)</text>
-<text x="25.4" y="15.24" size="1.016" layer="94" rot="MR0" align="center-left">LED2 (ETH0, GPIO 13)</text>
-<text x="25.4" y="12.7" size="1.016" layer="94" rot="MR0" align="center-left">LED3 (ETH1, GPIO 14)</text>
-<text x="25.4" y="10.16" size="1.016" layer="94" rot="MR0" align="center-left">LED4 (GPIO 15)</text>
-<text x="25.4" y="7.62" size="1.016" layer="94" rot="MR0" align="center-left">LED5 (GPIO 16)</text>
-<text x="25.4" y="5.08" size="1.016" layer="94" rot="MR0" align="center-left">LED6 (GPIO 17)</text>
-<pin name="24" x="-30.48" y="25.4" visible="pad" length="middle" direction="in"/>
-<pin name="23" x="-30.48" y="27.94" visible="pad" length="middle" direction="in"/>
-<text x="-22.86" y="25.4" size="1.016" layer="94" align="center-left">UART CTS (i2S MCIN, GPIO 12)</text>
-<text x="-22.86" y="27.94" size="1.016" layer="94" align="center-left">UART RTS (i2S MCK, JS, GPIO11)</text>
-<text x="25.4" y="-2.54" size="1.016" layer="94" rot="MR0" align="center-left">SPI MOSI (GPIO 4)</text>
-<text x="25.4" y="-5.08" size="1.016" layer="94" rot="MR0" align="center-left">SPI CLK (GPIO 3)</text>
-<text x="25.4" y="-7.62" size="1.016" layer="94" rot="MR0" align="center-left">SPI MISO (GPIO 5)</text>
-<text x="25.4" y="-10.16" size="1.016" layer="94" rot="MR0" align="center-left">SPI CS0 (GPIO 2)</text>
-<pin name="1" x="33.02" y="-17.78" visible="pad" length="middle" rot="R180"/>
-<pin name="2" x="33.02" y="-20.32" visible="pad" length="middle" rot="R180"/>
-<pin name="3" x="33.02" y="-22.86" visible="pad" length="middle" rot="R180"/>
-<pin name="4" x="33.02" y="-25.4" visible="pad" length="middle" rot="R180"/>
-<pin name="5" x="33.02" y="-27.94" visible="pad" length="middle" rot="R180"/>
-<pin name="6" x="33.02" y="-30.48" visible="pad" length="middle" rot="R180"/>
-<text x="25.4" y="-17.78" size="1.016" layer="94" rot="MR0" align="center-left">SPDIF OUT (GPIO 23)</text>
-<text x="25.4" y="-20.32" size="1.016" layer="94" rot="MR0" align="center-left">i2S MICIN (SLIC DATA IN, GPIO 22)</text>
-<text x="25.4" y="-22.86" size="1.016" layer="94" rot="MR0" align="center-left">i2S MCK (SLIC DATA OUT, GPIO 21)</text>
-<text x="25.4" y="-25.4" size="1.016" layer="94" rot="MR0" align="center-left">i2S SD (SLIC FS IN, GPIO 20)</text>
-<text x="25.4" y="-27.94" size="1.016" layer="94" rot="MR0" align="center-left">i2S WS (SLIC FS OUT, GPIO 19)</text>
-<text x="25.4" y="-30.48" size="1.016" layer="94" rot="MR0" align="center-left">i2S CK (SLIC CLK, GPIO 18)</text>
-<text x="-25.4" y="35.56" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="25.4" y="35.56" size="1.778" layer="96" align="center-right">&gt;VALUE</text>
+<wire x1="-30.48" y1="33.02" x2="35.56" y2="33.02" width="0.254" layer="94"/>
+<wire x1="-30.48" y1="33.02" x2="-30.48" y2="-45.72" width="0.254" layer="94"/>
+<pin name="GND" x="-12.7" y="-50.8" visible="pin" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@1" x="-10.16" y="-50.8" visible="pin" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@2" x="-7.62" y="-50.8" visible="pin" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@3" x="-5.08" y="-50.8" visible="pin" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@4" x="-2.54" y="-50.8" visible="pin" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@5" x="0" y="-50.8" visible="pin" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@6" x="2.54" y="-50.8" visible="pin" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@7" x="5.08" y="-50.8" visible="pin" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@8" x="7.62" y="-50.8" visible="pin" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@9" x="10.16" y="-50.8" visible="pin" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@11" x="12.7" y="-50.8" visible="pin" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@12" x="15.24" y="-50.8" visible="pin" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@13" x="17.78" y="-50.8" visible="pin" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@14" x="20.32" y="-50.8" visible="pin" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@15" x="22.86" y="-50.8" visible="pin" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@16" x="25.4" y="-50.8" visible="pin" length="middle" direction="pwr" rot="R90"/>
+<wire x1="-30.48" y1="-45.72" x2="35.56" y2="-45.72" width="0.254" layer="94"/>
+<pin name="3V3" x="17.78" y="38.1" visible="pin" length="middle" direction="pwr" rot="R270"/>
+<pin name="3V3@1" x="15.24" y="38.1" visible="pin" length="middle" direction="pwr" rot="R270"/>
+<pin name="2V_OUT" x="10.16" y="38.1" visible="pin" length="middle" direction="sup" rot="R270"/>
+<pin name="ETH0_TX_N" x="-35.56" y="-25.4" visible="pin" length="middle" direction="out"/>
+<pin name="ETH0_TX_P" x="-35.56" y="-22.86" visible="pin" length="middle" direction="out"/>
+<pin name="ETH0_RX_N" x="-35.56" y="-20.32" visible="pin" length="middle" direction="in"/>
+<pin name="ETH0_RX_P" x="-35.56" y="-17.78" visible="pin" length="middle" direction="in"/>
+<pin name="ETH1_TX_N" x="-35.56" y="-10.16" visible="pin" length="middle" direction="out"/>
+<pin name="ETH1_TX_P" x="-35.56" y="-7.62" visible="pin" length="middle" direction="out"/>
+<pin name="ETH1_RX_N" x="-35.56" y="-5.08" visible="pin" length="middle" direction="in"/>
+<pin name="ETH1_RX_P" x="-35.56" y="-2.54" visible="pin" length="middle" direction="in"/>
+<pin name="ANT" x="-35.56" y="2.54" visible="pin" length="middle" direction="out"/>
+<pin name="USB_D_N" x="-35.56" y="10.16" visible="pin" length="middle"/>
+<pin name="USB_D_P" x="-35.56" y="12.7" visible="pin" length="middle"/>
+<pin name="UART_TX/SPI_CS2/GPIO10" x="-35.56" y="20.32" visible="pin" length="middle"/>
+<pin name="UART_RX/SPI_CS1/GPIO9" x="-35.56" y="22.86" visible="pin" length="middle"/>
+<wire x1="35.56" y1="33.02" x2="35.56" y2="-45.72" width="0.254" layer="94"/>
+<pin name="LED0/WLAN_LED/GPIO0" x="40.64" y="20.32" visible="pin" length="middle" rot="R180"/>
+<pin name="LED1/GPIO1" x="40.64" y="17.78" visible="pin" length="middle" rot="R180"/>
+<pin name="LED2_EHT0/GPIO13" x="40.64" y="15.24" visible="pin" length="middle" rot="R180"/>
+<pin name="LED3_ETH1/GPIO14" x="40.64" y="12.7" visible="pin" length="middle" rot="R180"/>
+<pin name="LED4/GPIO15" x="40.64" y="10.16" visible="pin" length="middle" rot="R180"/>
+<pin name="LED6/GPIO17" x="40.64" y="5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="LED5/GPIO16" x="40.64" y="7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="SPI_CS0/GPIO2" x="40.64" y="-10.16" visible="pin" length="middle" rot="R180"/>
+<pin name="SPI_MOSI/GPIO14" x="40.64" y="-2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="SPI_CLK/GPIO13" x="40.64" y="-5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="SPI_MISO/GPIO5" x="40.64" y="-7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="UART_CTS/I2S_MCIN/GPIO12" x="-35.56" y="25.4" visible="pin" length="middle"/>
+<pin name="UART_RTS/I2S_MCK/GPIO11" x="-35.56" y="27.94" visible="pin" length="middle"/>
+<pin name="SPDIF_OUT/GPIO23" x="40.64" y="-17.78" visible="pin" length="middle" rot="R180"/>
+<pin name="I2S_MICIN/SLIC_DATA_IN/GPIO22" x="40.64" y="-20.32" visible="pin" length="middle" rot="R180"/>
+<pin name="I2S_MCK/SLIC_DATA_OUT/GPIO21" x="40.64" y="-22.86" visible="pin" length="middle" rot="R180"/>
+<pin name="I2S_SD/SLIC_FSIN/GPIO20" x="40.64" y="-25.4" visible="pin" length="middle" rot="R180"/>
+<pin name="I2S_WS/SLIC_FS_OUT/GPIO19" x="40.64" y="-27.94" visible="pin" length="middle" rot="R180"/>
+<pin name="I2S_CLK/SLIC_CLK/GPIO18" x="40.64" y="-30.48" visible="pin" length="middle" rot="R180"/>
+<text x="-30.48" y="35.56" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="33.02" y="35.56" size="1.778" layer="96" align="center-right">&gt;VALUE</text>
 <text x="-5.08" y="0" size="1.778" layer="94">Carambola 2</text>
-<pin name="33" x="33.02" y="27.94" visible="pad" length="middle" rot="R180"/>
-<text x="25.4" y="27.94" size="1.016" layer="94" rot="MR0" align="center-left">HW RESET</text>
-<pin name="PAD" x="22.86" y="-45.72" visible="pad" length="middle" direction="pwr" rot="R90"/>
-<text x="22.86" y="-38.1" size="1.016" layer="94" rot="R90" align="center-left">PAD</text>
+<pin name="!RESET" x="40.64" y="27.94" visible="pin" length="middle" direction="in" rot="R180"/>
+<pin name="PAD" x="30.48" y="-50.8" visible="pin" length="middle" direction="pwr" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -276,59 +223,59 @@ Id: fc226714e36e4508b1fc21a819f1be55
 <devices>
 <device name="" package="CARAMBOLA2">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="10" pad="10"/>
-<connect gate="G$1" pin="11" pad="11"/>
-<connect gate="G$1" pin="12" pad="12"/>
-<connect gate="G$1" pin="13" pad="13"/>
-<connect gate="G$1" pin="14" pad="14"/>
-<connect gate="G$1" pin="15" pad="15"/>
-<connect gate="G$1" pin="16" pad="16"/>
-<connect gate="G$1" pin="17" pad="17"/>
-<connect gate="G$1" pin="18" pad="18"/>
-<connect gate="G$1" pin="19" pad="19"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="20" pad="20"/>
-<connect gate="G$1" pin="21" pad="21"/>
-<connect gate="G$1" pin="22" pad="22"/>
-<connect gate="G$1" pin="23" pad="23"/>
-<connect gate="G$1" pin="24" pad="24"/>
-<connect gate="G$1" pin="25" pad="25"/>
-<connect gate="G$1" pin="26" pad="26"/>
-<connect gate="G$1" pin="27" pad="27"/>
-<connect gate="G$1" pin="28" pad="28"/>
-<connect gate="G$1" pin="29" pad="29"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="30" pad="30"/>
-<connect gate="G$1" pin="31" pad="31"/>
-<connect gate="G$1" pin="32" pad="32"/>
-<connect gate="G$1" pin="33" pad="33"/>
-<connect gate="G$1" pin="34" pad="34"/>
-<connect gate="G$1" pin="35" pad="35"/>
-<connect gate="G$1" pin="36" pad="36"/>
-<connect gate="G$1" pin="37" pad="37"/>
-<connect gate="G$1" pin="38" pad="38"/>
-<connect gate="G$1" pin="39" pad="39"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="40" pad="40"/>
-<connect gate="G$1" pin="41" pad="41"/>
-<connect gate="G$1" pin="42" pad="42"/>
-<connect gate="G$1" pin="43" pad="43"/>
-<connect gate="G$1" pin="44" pad="44"/>
-<connect gate="G$1" pin="45" pad="45"/>
-<connect gate="G$1" pin="46" pad="46"/>
-<connect gate="G$1" pin="47" pad="47"/>
-<connect gate="G$1" pin="48" pad="48"/>
-<connect gate="G$1" pin="49" pad="49"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="50" pad="50"/>
-<connect gate="G$1" pin="51" pad="51"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
-<connect gate="G$1" pin="P$1" pad="52"/>
+<connect gate="G$1" pin="!RESET" pad="33"/>
+<connect gate="G$1" pin="2V_OUT" pad="52"/>
+<connect gate="G$1" pin="3V3" pad="51"/>
+<connect gate="G$1" pin="3V3@1" pad="50"/>
+<connect gate="G$1" pin="ANT" pad="26"/>
+<connect gate="G$1" pin="ETH0_RX_N" pad="13"/>
+<connect gate="G$1" pin="ETH0_RX_P" pad="12"/>
+<connect gate="G$1" pin="ETH0_TX_N" pad="15"/>
+<connect gate="G$1" pin="ETH0_TX_P" pad="14"/>
+<connect gate="G$1" pin="ETH1_RX_N" pad="9"/>
+<connect gate="G$1" pin="ETH1_RX_P" pad="8"/>
+<connect gate="G$1" pin="ETH1_TX_N" pad="11"/>
+<connect gate="G$1" pin="ETH1_TX_P" pad="10"/>
+<connect gate="G$1" pin="GND" pad="49"/>
+<connect gate="G$1" pin="GND@1" pad="48"/>
+<connect gate="G$1" pin="GND@11" pad="29"/>
+<connect gate="G$1" pin="GND@12" pad="28"/>
+<connect gate="G$1" pin="GND@13" pad="27"/>
+<connect gate="G$1" pin="GND@14" pad="25"/>
+<connect gate="G$1" pin="GND@15" pad="22"/>
+<connect gate="G$1" pin="GND@16" pad="7"/>
+<connect gate="G$1" pin="GND@2" pad="47"/>
+<connect gate="G$1" pin="GND@3" pad="46"/>
+<connect gate="G$1" pin="GND@4" pad="45"/>
+<connect gate="G$1" pin="GND@5" pad="42"/>
+<connect gate="G$1" pin="GND@6" pad="34"/>
+<connect gate="G$1" pin="GND@7" pad="32"/>
+<connect gate="G$1" pin="GND@8" pad="31"/>
+<connect gate="G$1" pin="GND@9" pad="30"/>
+<connect gate="G$1" pin="I2S_CLK/SLIC_CLK/GPIO18" pad="6"/>
+<connect gate="G$1" pin="I2S_MCK/SLIC_DATA_OUT/GPIO21" pad="3"/>
+<connect gate="G$1" pin="I2S_MICIN/SLIC_DATA_IN/GPIO22" pad="2"/>
+<connect gate="G$1" pin="I2S_SD/SLIC_FSIN/GPIO20" pad="4"/>
+<connect gate="G$1" pin="I2S_WS/SLIC_FS_OUT/GPIO19" pad="5"/>
+<connect gate="G$1" pin="LED0/WLAN_LED/GPIO0" pad="41"/>
+<connect gate="G$1" pin="LED1/GPIO1" pad="40"/>
+<connect gate="G$1" pin="LED2_EHT0/GPIO13" pad="39"/>
+<connect gate="G$1" pin="LED3_ETH1/GPIO14" pad="38"/>
+<connect gate="G$1" pin="LED4/GPIO15" pad="37"/>
+<connect gate="G$1" pin="LED5/GPIO16" pad="36"/>
+<connect gate="G$1" pin="LED6/GPIO17" pad="35"/>
 <connect gate="G$1" pin="PAD" pad="PAD"/>
+<connect gate="G$1" pin="SPDIF_OUT/GPIO23" pad="1"/>
+<connect gate="G$1" pin="SPI_CLK/GPIO13" pad="17"/>
+<connect gate="G$1" pin="SPI_CS0/GPIO2" pad="19"/>
+<connect gate="G$1" pin="SPI_MISO/GPIO5" pad="18"/>
+<connect gate="G$1" pin="SPI_MOSI/GPIO14" pad="16"/>
+<connect gate="G$1" pin="UART_CTS/I2S_MCIN/GPIO12" pad="24"/>
+<connect gate="G$1" pin="UART_RTS/I2S_MCK/GPIO11" pad="23"/>
+<connect gate="G$1" pin="UART_RX/SPI_CS1/GPIO9" pad="43"/>
+<connect gate="G$1" pin="UART_TX/SPI_CS2/GPIO10" pad="44"/>
+<connect gate="G$1" pin="USB_D_N" pad="21"/>
+<connect gate="G$1" pin="USB_D_P" pad="20"/>
 </connects>
 <technologies>
 <technology name=""/>
